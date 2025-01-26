@@ -15,7 +15,16 @@
     
     <div class="add-subject">
       <input type="text" id="subject-name" placeholder="Nazwa przedmiotu">
-      <input type="text" id="subject-duration" placeholder="Czas trwania">
+      
+      <input 
+        type="number" 
+        id="subject-duration" 
+        placeholder="Czas trwania w godzinach" 
+        min="0.1" 
+        step="0.1" 
+        required
+      >
+      
       <button id="add-button">Dodaj</button>
     </div>
     
